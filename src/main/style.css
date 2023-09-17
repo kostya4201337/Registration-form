@@ -19,13 +19,12 @@ html {
     margin: 10px;
     border-radius: 20px;
     text-align: left;
+    width: 90%;
     font-size: 15px;
     padding: 15px;
-    /*color: rgb(214, 214, 214);*/
     background-color: rgb(194, 194, 194);
     border-style: solid;
     border-width: 2px;
-
 }
 
 .logo {
@@ -39,6 +38,12 @@ html {
 }
 
 .locked {
-    background-color: rgb(126,126,126);
-    color: rgb(185,185,185)
+    background-color: rgb(217, 217, 217);
+    color: rgb(194, 194, 194)
+}
+
+.button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
 }

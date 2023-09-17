@@ -8,16 +8,28 @@
 <body>
     <div class = "menu">
         <img src = "img.png" alt = "pentagon" class = "logo">
-        <div class = "box">First Name</div>
-        <div class = "box">Last Name</div>
+        <label>
+            <input class = "box" type = "text" placeholder = "First Name">
+        </label>
+        <label>
+            <input class = "box" type = "text" placeholder = "Last Name">
+        </label>
         <hr>
-        <div class = "box">Card Number</div>
+        <label>
+            <input class = "box" type = "text" placeholder = "Card Number">
+        </label>
         <b>Expiry Date<br></b>
         For example, 10/20<br>
-        <div class = "box inline">Month</div>
+        <label>
+            <input class = "box inline" type = "text" placeholder = "Month">
+        </label>
         /
-        <div class = "box inline">Year</div>
-        <div class = "box inline">CVC Code</div>
+        <label>
+            <input class = "box inline" type = "text" placeholder = "Year">
+        </label>
+        <label>
+            <input class = "box inline" type = "text" placeholder = "CVC Code">
+        </label>
         |
         <div class = "box inline">
             <label style = "display: inline-block;">
@@ -25,7 +37,7 @@
                 I'm not a robot.
             </label>
         </div>
-        <div class = "box inline locked">Submit</div>
+        <button type="button" class = "box inline locked button">Submit</button>
     </div>
 </body>
 </html>
